@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {CssBaseline} from "@mui/material";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+import Education from "./components/Education";
+import WorkExperience from "./components/WorkExperience";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Reviews from "./components/Reviews";
+import "./App.css";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" Component={Home} />
+          <Route exact path="/education" Component={Education} />
+          <Route exact path="/work_experience" Component={WorkExperience} />
+          <Route exact path="/skills" Component={Skills} />
+          <Route exact path="/projects" Component={Projects} />
+          <Route exact path="/contact" Component={Contact} />
+          <Route exact path="/reviews" Component={Reviews} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </React.Fragment>
   );
 }
 
