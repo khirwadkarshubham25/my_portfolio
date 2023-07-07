@@ -145,7 +145,7 @@ const EducationComponents = () => {
             // align="center"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            Present
+            May 2023
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -163,10 +163,7 @@ const EducationComponents = () => {
               align="center"
               className={classes.subtitle1}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-              ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-              Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-              repudiandae, rerum necessitatibus nisi mollitia.
+              During my Master's program in Computer Science at The University of Texas at Arlington, I gained in-depth knowledge and practical skills in various areas of computer science. The program provided a comprehensive understanding of advanced algorithms, data structures, software engineering principles, and artificial intelligence. I also had the opportunity to collaborate with professors and fellow students on cutting-edge projects, further enhancing my problem-solving abilities and critical thinking skills. Through coursework, hands-on projects, I honed my expertise in areas such as artificial intelligence, machine learning, databases, cloud computing, and software development, preparing me for a successful career in the field of computer science.
             </Typography>
           </Box>
           <Typography
@@ -209,10 +206,7 @@ const EducationComponents = () => {
               align="center"
               className={classes.subtitle1}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-              ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-              Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-              repudiandae, rerum necessitatibus nisi mollitia.
+              My Bachelor's degree in Computer Engineering from Vishwakarma Institute of Technology provided a strong foundation in fundamental concepts and principles of computer science. Through coursework and hands-on projects, I gained expertise in programming languages, data structures, algorithms, database management, and software development. The program also emphasized problem-solving, critical thinking, and teamwork skills, which are essential in the field of computer science. Additionally, I had the opportunity to work on industry-oriented projects and internships, which enhanced my practical knowledge and prepared me for real-world challenges. Overall, my undergraduate education in computer science equipped me with the necessary skills and knowledge to excel in the dynamic and ever-evolving field of technology.
             </Typography>
           </Box>
           <Typography

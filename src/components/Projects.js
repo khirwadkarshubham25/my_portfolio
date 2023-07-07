@@ -5,8 +5,8 @@ import {makeStyles} from "@mui/styles";
 const projects = [
     {
         "title": "My Portfolio",
-        "images": "",
-        "url": ""
+        "image": "images/js.png",
+        "url": "https://github.com/khirwadkarshubham25/my_portfolio"
     },
     {
         "title": "Sentiment Analysis Twitter",
