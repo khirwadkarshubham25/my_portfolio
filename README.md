@@ -1,6 +1,13 @@
 # My Portfolio
 
-### Installing
+
+## For Live Demo 
+
+https://shubhamkhirwadkar.netlify.app/
+
+## Installation
+
+### Git repo clone
 
     git clone https://github.com/khirwadkarshubham25/my_portfolio.git
 
