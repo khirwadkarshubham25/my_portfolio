@@ -22,6 +22,26 @@ const projects = [
         "title": "Linux Commands",
         "image": "images/linux.png",
         "url": "https://github.com/khirwadkarshubham25/linux_cheat_sheet"
+    },
+    {
+        "title": "Design and Analysis of Algorithms(DAA) Codes",
+        "image": "images/python.jpeg",
+        "url": "https://github.com/khirwadkarshubham25/DAA_Codes"
+    },
+    {
+        "title": "Neural Network Assignments",
+        "image": "images/nn.jpg",
+        "url": "https://github.com/khirwadkarshubham25/Neural_Network_Assignments"
+    },
+    {
+        "title": "DBMS Models and Implementation Projects",
+        "image": "images/pythonMongoDB.jpg",
+        "url": "https://github.com/khirwadkarshubham25/DB2_Projects"
+    },
+    {
+        "title": "Expense Manager",
+        "image": "images/JavaJavaScript.png",
+        "url": "https://github.com/khirwadkarshubham25/expense_manager"
     }
 ]
 

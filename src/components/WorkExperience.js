@@ -1,6 +1,6 @@
 import React from "react";
 import {Typography, Box, createTheme} from "@mui/material";
-
+import { NavLink } from "react-router-dom";
 import {makeStyles} from "@mui/styles";
 
 const theme = createTheme({
@@ -156,28 +156,80 @@ const WorkExperience = () => {
       <Typography variant="h4" align="center" className={classes.heading}>
         Work Experience
       </Typography>
+
       <Box component="div" className={classes.timeLine}>
         <Typography
-        variant="h5"
-        className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          variant="h5"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          Present
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Java Developer
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Benefit Harbor Insurance Services, LLC.
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Just started... still in KT mode....
+          </Typography>
+        </Box>
+        <Typography
+          variant="h5"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          July 2023
+        </Typography>
+        <Box component="div" className={`${classes.timeLineItem} ${classes.timeLineWLO}`}> </Box>
+        <Box component="div" className={`${classes.timeLineItem} ${classes.timeLineWLO}`}> </Box>
+        <Typography
+          variant="h5"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          May 2023
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            <NavLink className={classes.hoverClass} to={`/education`}>
+                Education
+              </NavLink>
+          </Typography>
+        </Box>
+
+        <Typography
+          variant="h5"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
           July 2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
-          variant="h5"
-          align="center"
-          className={classes.subHeading}
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
           >
-          Software Engineer
+            Software Engineer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-          Coreview Systems Private Limited
+            Coreview Systems Private Limited
           </Typography>
           <Typography
-          variant="subtitle1"
-          align="center"
-          className={classes.subtitle1}
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
           >
             Collaborated with the client, using Agile methodology, to obtain, analyze and develop requirements of the web application.
             Designed REST APIs using Django Python and worked on Django ORM API to perform CRUD operations on PostgreSQL databases.
@@ -189,10 +241,10 @@ const WorkExperience = () => {
           </Typography>
         </Box>
         <Typography
-        variant="h5"
-        className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          Nov 2019
+          variant="h5"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            Nov 2019
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -206,9 +258,9 @@ const WorkExperience = () => {
             Cognizant Technology Solutions
           </Typography>
           <Typography
-          variant="subtitle1"
-          align="center"
-          className={classes.subtitle1}
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
           >
             Designed high level test case scenarios and low level test case design for API services.
             Successfully developed and executed manual test cases and reported bugs to the developer and then retested them once fixed.
@@ -223,20 +275,18 @@ const WorkExperience = () => {
           </Typography>
         </Box>
         <Typography
-        variant="h5"
-        className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          July 2018
+          variant="h5"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            July 2018
         </Typography>
-        <Box component="div" className={`${classes.timeLineItem} ${classes.timeLineWLO}`}>
-        </Box>
-        <Box component="div" className={`${classes.timeLineItem} ${classes.timeLineWLO}`}>
-        </Box>
+        <Box component="div" className={`${classes.timeLineItem} ${classes.timeLineWLO}`}> </Box>
+        <Box component="div" className={`${classes.timeLineItem} ${classes.timeLineWLO}`}> </Box>
         <Typography
-        variant="h5"
-        className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          May 2018
+          variant="h5"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            May 2018
         </Typography>
 
         <Box component="div" className={classes.timeLineItem}>
@@ -261,10 +311,10 @@ const WorkExperience = () => {
           </Typography>
         </Box>
         <Typography
-        variant="h5"
-        className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          Feb 2018
+          variant="h5"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            Feb 2018
         </Typography>
       </Box>
     </Box>
