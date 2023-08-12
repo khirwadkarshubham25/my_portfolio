@@ -173,14 +173,17 @@ const WorkExperience = () => {
             Java Developer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Benefit Harbor Insurance Services, LLC.
+            Benefit Harbor LP.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Just started... still in KT mode....
+            Currently delivering, analyzing, and resolving technical issues, and actively participating in the continuous enhancement of established development processes.
+            Designing scripts to send periodic email notifications of portal data to clients based on their configurations.
+            Proactively and strategically working on the customer-facing insurance application to build UI components in HTML and CSS based on the clients' requirements.
+            Developing Rest APIs for new requirements using Java Spring Boot.
           </Typography>
         </Box>
         <Typography
