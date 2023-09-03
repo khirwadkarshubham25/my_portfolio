@@ -11,7 +11,6 @@ import {
   Divider,
   List,
   ListItem,
-  ListItemButton,
   ListItemText
 } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
@@ -103,9 +102,6 @@ function Navbar() {
                         <ListItem component={NavLinkComponent} style={({ isActive }) => ({color: isActive ? 'white' : 'tan'})} to={`/contact`}>
                             <ListItemText primary='Contact Me' />
                         </ListItem>
-                        <ListItem component={NavLinkComponent} style={({ isActive }) => ({color: isActive ? 'white' : 'tan'})} to={`/reviews`}>
-                            <ListItemText primary='Reviews' />
-                        </ListItem>
                     </List>
                     <Divider sx={{ bgcolor: "white" }} />
                 </Drawer>
@@ -147,11 +143,6 @@ function Navbar() {
                             <Typography variant="h6">
                                 <NavLinkComponent style={({ isActive }) => ({color: isActive ? 'white' : 'tan'})} to={`/contact`}>
                                     Contact Me
-                                </NavLinkComponent>
-                            </Typography>
-                            <Typography variant="h6">
-                                <NavLinkComponent style={({ isActive }) => ({color: isActive ? 'white' : 'tan'})} to={`/reviews`}>
-                                    Reviews
                                 </NavLinkComponent>
                             </Typography>
                         </Toolbar>

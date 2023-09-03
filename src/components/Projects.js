@@ -19,9 +19,24 @@ const projects = [
         "url": "https://github.com/khirwadkarshubham25/Store-Management-Portal"
     },
     {
+      "title": "Expense Manager",
+      "image": "images/JavaJavaScript.png",
+      "url": "https://github.com/khirwadkarshubham25/expense_manager"
+    },
+    {
+        "title": "ToDo App",
+        "image": "images/js.png",
+        "url": "https://github.com/khirwadkarshubham25/Todo-App"
+    },
+    {
         "title": "Linux Commands",
         "image": "images/linux.png",
         "url": "https://github.com/khirwadkarshubham25/linux_cheat_sheet"
+    },
+    {
+        "title": "Sales Data Analysis",
+        "image": "images/pythonJupyter.png",
+        "url": "https://github.com/khirwadkarshubham25/sales_data_analysis"
     },
     {
         "title": "Design and Analysis of Algorithms(DAA) Codes",
@@ -38,11 +53,7 @@ const projects = [
         "image": "images/pythonMongoDB.jpg",
         "url": "https://github.com/khirwadkarshubham25/DB2_Projects"
     },
-    {
-        "title": "Expense Manager",
-        "image": "images/JavaJavaScript.png",
-        "url": "https://github.com/khirwadkarshubham25/expense_manager"
-    }
+    
 ]
 
 const useStyles = makeStyles(() => ({

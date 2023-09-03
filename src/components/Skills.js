@@ -114,10 +114,32 @@ const data = [
 
 ]
 
+const breakpoints = {
+    xs: 0,
+    sm: 600,
+    md: 960,
+    lg: 1280,
+    xl: 1920
+}
+
+const getColumns = (width) => {
+    if (width < breakpoints.sm) {
+        return 2
+    } else if (width < breakpoints.md) {
+        return 3
+    } else if (width < breakpoints.lg) {
+        return 6
+    } else if (width < breakpoints.xl) {
+        return 7
+    } else {
+        return 8
+    }
+}
+
 const useStyles = makeStyles((theme) => ({
     mainContainer: {
         background: "#233",
-        height: "100%",
+        // height: "100%",
         minHeight: "100vh"
     },
     mainSkillsBox: {
@@ -136,31 +158,27 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const firebaseConfig = {
-    apiKey: "AIzaSyBT6s5TmW5HXw8RETNluv6yazT19MXMqYc",
-    authDomain: "portfolio-b9fef.firebaseapp.com",
-    databaseURL: "https://portfolio-b9fef-default-rtdb.firebaseio.com",
-    projectId: "portfolio-b9fef",
-    storageBucket: "portfolio-b9fef.appspot.com",
-    messagingSenderId: "25981651527",
-    appId: "1:25981651527:web:45c06dc77435a60eca3f62"
-}
-
 const Skills = () => {
     const classes = useStyles();
+    const [columns, setColumns] = useState(getColumns(window.innerWidth))
+    const updateDimensions = () => {
+        setColumns(getColumns(window.innerWidth))
+    }
+    useEffect(() => {
+        window.addEventListener("resize", updateDimensions);
+        return () => window.removeEventListener("resize", updateDimensions);
+    }, []);
     return( 
         <Box className={classes.mainContainer}>
             {
-                data.map((item) => {
-                    return (
+                data.map((skillItem) => (
                         <Box className={classes.mainSkillsBox} sx={{height: "100%"}}>
                             <Typography variant="h6" align="center" className={classes.heading1}>
-                                {item.title}
+                                {skillItem.title}
                             </Typography>
-                            <ImageList sx={{width: "100%",  height: "100%", overflow: "hidden"}} cols={6} rowHeight={110}>
+                            <ImageList sx={{width: "100%",  height: "100%", overflow: "hidden"}} cols={columns} rowHeight={110}>
                                 {
-                                    item.items.map((imageItem) => {
-                                        return(
+                                    skillItem.items.map((imageItem) => (
                                             <ImageListItem key={imageItem.icon} sx= {{height: "100px", width: "100px", margin: 3}}>
                                                 <img
                                                     src={imageItem.icon}
@@ -174,53 +192,16 @@ const Skills = () => {
                                                     className={classes.imageTitle}
                                                 />
                                             </ImageListItem>
-                                        );
-                                    })
+                                        )
+                                    )
                                 }
                             </ImageList>
                         </Box>
-                    );
-                })
+                    )
+                )
             }
         </Box>
-        // <Box className={classes.mainContainer}>
-        //     <ImageList sx={{width: "100%",  height: "100%", margin: -0.5}} cols={1} rowHeight={40}>
-        //         {
-        //             data.map((item) => {
-        //                 return(
-        //                     <Box className={classes.mainSkillsBox}>
-        //                         <Typography variant="h6" align="center" className={classes.heading1}>
-        //                             {item.title}
-        //                         </Typography>
-        //                         <ImageList sx={{width: "100%",  height: "25vh"}} cols={6} rowHeight={40}>
-        //                         {
-        //                             item.items.map((imageItem) => {
-        //                                 return(
-        //                                     <ImageListItem key={imageItem.icon} sx= {{height: "100px", width: "100px", margin: 3}}>
-        //                                         <img
-        //                                             src={imageItem.icon}
-        //                                             srcSet={`${imageItem.icon}`}
-        //                                             alt={imageItem.title}
-        //                                             loading="lazy"
-        //                                         />
-        //                                         <ImageListItemBar
-        //                                             title={imageItem.title}
-        //                                             position="below"
-        //                                             className={classes.imageTitle}
-        //                                         />
-        //                                         </ImageListItem>
-        //                                     );
-        //                                 })
-        //                             }
-        //                         </ImageList>
-        //                     </Box>
-        //                 );
-        //             })
-        //         }
-        //     </ImageList>
-        // </Box>
     );
 };
-// };
 
 export default Skills;

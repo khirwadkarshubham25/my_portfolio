@@ -180,10 +180,9 @@ const WorkExperience = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Currently delivering, analyzing, and resolving technical issues, and actively participating in the continuous enhancement of established development processes.
+            Actively enhancing established development processes by proficiently resolving technical issues, contributing to process optimization.
             Designing scripts to send periodic email notifications of portal data to clients based on their configurations.
-            Proactively and strategically working on the customer-facing insurance application to build UI components in HTML and CSS based on the clients' requirements.
-            Developing Rest APIs for new requirements using Java Spring Boot.
+            Strategically enhancing the customer-facing insurance application by crafting tailored UI components in HTML and CSS, aligning precisely with client specifications and requirements.
           </Typography>
         </Box>
         <Typography
@@ -234,13 +233,13 @@ const WorkExperience = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Collaborated with the client, using Agile methodology, to obtain, analyze and develop requirements of the web application.
-            Designed REST APIs using Django Python and worked on Django ORM API to perform CRUD operations on PostgreSQL databases.
-            Created Python scripts to perform data sync operation for 20+ tables between the client database and our database.
-            Developed python scripts to create test data for the QA testing.
-            Performed code review of my peers before deploying code.
-            Deployed application on test and production environment.
-            Participated with the team of 10 to discuss new requirements, current progress and next plan of action.
+            Collaborated with clients using Agile methodology to analyze and define requirements, fostering effective communication.
+            Developed, deployed and maintained REST APIs using Django Python, including CRUD operations on PostgreSQL databases.
+            Created Python scripts for seamless data synchronization across 20+ tables, enhancing data consistency between client and company databases.
+            Leveraged Jenkins and Docker to successfully deploy applications in test and production environments on the AWS server.
+            Optimized QA testing efficiency and saved 4 hours of manual effort by automating test data generation using Python scripts.
+            Conducted code reviews for peers, optimizing code and promoting coding standards.
+            Provided technical mentorship and guidance to junior team members to facilitate their growth in software engineering practices.
           </Typography>
         </Box>
         <Typography
@@ -265,16 +264,13 @@ const WorkExperience = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Designed high level test case scenarios and low level test case design for API services.
-            Successfully developed and executed manual test cases and reported bugs to the developer and then retested them once fixed.
-            Developed API Automation Test scripts using Java and test data for each service to test the functional and performance requirements.
-            Updated the regression test suite with the test scripts and test data.
-            Created SQL queries to verify data from MySQL Database.
-            Developed Java scripts to create test data and insert in the database for manual testing.
-            Investigated and analyzed new requirements and application documentation provided by the client.
-            Updated and maintained the automation scripts as per requirement changes.
-            Optimized testing framework and removed around 200 lines of redundant code.
-            Collaborated with a team of 22 and successfully deployed all the sprints in time.
+            Implemented test strategies ensuring comprehensive system flow coverage and validation, effectively meeting specified requirements.
+            Conducted meticulous execution of manual test cases, documenting, reporting, and retesting identified bugs post-remediation.
+            Developed Java-based Automation Test scripts into the regression suite, validating adherence to requirements with precision.
+            Leveraged SQL queries to meticulously verify data accuracy within the MySQL Database.
+            Developed Java scripts to proficiently generate test data and seamlessly insert it into the database, enhancing efficiency in manual testing procedures.
+            Revamped and streamlined automation scripts, eliminating 200 lines of superfluous code while optimizing the framework.
+            Assumed leadership responsibilities, organizing and leading technical skill development events for a team of over 80 members.
           </Typography>
         </Box>
         <Typography

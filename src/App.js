@@ -9,7 +9,6 @@ import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-import Reviews from "./components/Reviews";
 import "./App.css";
 
 
@@ -27,7 +26,6 @@ function App() {
           <Route exact path="/skills" Component={Skills} />
           <Route exact path="/projects" Component={Projects} />
           <Route exact path="/contact" Component={Contact} />
-          <Route exact path="/reviews" Component={Reviews} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -1,10 +1,6 @@
-import React from "react";
-import Typed from "react-typed";
+import React, {useState, useEffect} from "react";
 import {
   Typography,
-  useMediaQuery,
-  Grid,
-  Avatar,
   Box,
 } from '@mui/material';
 import {createTheme, ThemeProvider, styled} from "@mui/material/styles";
@@ -22,30 +18,44 @@ const BoxComponent = styled(Box) (( { theme } ) => ({
 }));
 
 const TypographyTitleComponent = styled(Typography) (() => ({
-  color: "tomato"
+  color: "tan"
 }));
 
-const TypographySubTitleComponent = styled(Typography) (() => ({
-  color: "tan",
-  textTransform: "uppercase"
-}));
+const breakpoints = {
+  xs: 0,
+  sm: 600,
+  md: 960,
+  lg: 1280,
+  xl: 1920
+}
+
+const getVariantSize = (width) => {
+  if (width < breakpoints.sm) {
+      return "h6"
+  } else {
+      return "h5"
+  }
+}
 
 const Contact = () => {
-  // const classes = useStyles();
+    const [variantSize, setVariantSize] = useState(getVariantSize(window.innerWidth))
+    const updateDimensions = () => {
+      setVariantSize(getVariantSize(window.innerWidth))
+    }
+    useEffect(() => {
+        window.addEventListener("resize", updateDimensions);
+        return () => window.removeEventListener("resize", updateDimensions);
+    }, []);
   return (
     <React.Fragment>
       <BoxComponent>
 
-        <TypographySubTitleComponent variant="h5">
-          <Typed
-          strings={[
-          "Comming Soon"
-          ]}
-          typeSpeed={40}
-          backSpeed={50}
-          loop
-          />
-        </TypographySubTitleComponent>
+        <TypographyTitleComponent variant={variantSize}>
+          khirwadkar.shubham25@gmail.com
+        </TypographyTitleComponent>
+        <TypographyTitleComponent variant={variantSize}>
+          +1-(972) 799-5914
+        </TypographyTitleComponent>
       </BoxComponent>
     </React.Fragment>
   );
