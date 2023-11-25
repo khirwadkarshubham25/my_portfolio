@@ -30,6 +30,15 @@ const TypographySubTitleComponent = styled(Typography) (() => ({
   textTransform: "uppercase"
 }));
 
+const TypographyDescriptonComponent = styled(Typography) (() => ({
+  color: "#FF7F50",
+  alignItems: 'center',
+  justifyContent: 'center',
+  width: "50%",
+  textAlign: "center",
+  zIndex: 1
+}));
+
 const Home = () => {
   // const classes = useStyles();
   return (
@@ -54,6 +63,11 @@ const Home = () => {
           loop
           />
         </TypographySubTitleComponent>
+        {/* <TypographyDescriptonComponent variant="h5">
+        Passionate 4-year experienced Software Engineer specializing in web applications and backend systems. Skilled in Java,
+Python, and various frameworks. Proven at performance optimization and technical mentorship. Excels in cross-functional
+collaboration, code review, and best practices for software development. Can work independently or remotely as needed.
+        </TypographyDescriptonComponent> */}
       </BoxComponent>
     </React.Fragment>
   );

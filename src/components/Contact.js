@@ -51,7 +51,7 @@ const Contact = () => {
       <BoxComponent>
 
         <TypographyTitleComponent variant={variantSize}>
-          khirwadkar.shubham25@gmail.com
+          shubhamkhirwadkar@outlook.com
         </TypographyTitleComponent>
         <TypographyTitleComponent variant={variantSize}>
           +1-(972) 799-5914
