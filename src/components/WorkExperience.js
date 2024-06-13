@@ -170,7 +170,7 @@ const WorkExperience = () => {
             align="center"
             className={classes.subHeading}
           >
-            Java Developer
+            Software Engineer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             Benefit Harbor LP.
@@ -180,9 +180,8 @@ const WorkExperience = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Developing scalable backend systems with Java Spring Boot, resulting in a substantial 6% improvement in application performance.
-            Strategically enhancing the customer-facing insurance application by crafting tailored UI components in React.js, aligning precisely with clients specifications and requirements.
-            Managing databases in PostgreSQL to optimize queries, reducing response time by 7% for critical operations.
+            Designing and implementing robust insurance enrollment features in Java using MVC, Spring Boot, and Hibernate, adhering strictly to coding standards, security best practices, and technical design specifications.
+            Developing user interface for portals utilizing JQuery, HTML, and CSS, ensuring seamless and intuitive user experiences.
           </Typography>
         </Box>
         <Typography
@@ -191,38 +190,6 @@ const WorkExperience = () => {
         >
           July 2023
         </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-          variant="h5"
-          align="center"
-          className={classes.subHeading}
-          >
-            Software Engineer Intern
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            CharacterFaceGen Software
-          </Typography>
-          <Typography
-          variant="subtitle1"
-          align="center"
-          className={classes.subtitle1}
-          >  
-          </Typography>
-        </Box>
-        <Typography
-          variant="h5"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-          >
-            July 2023
-        </Typography>
-        {/* <Box component="div" className={`${classes.timeLineItem} ${classes.timeLineWLO}`}> </Box>
-        <Box component="div" className={`${classes.timeLineItem} ${classes.timeLineWLO}`}> </Box>
-        <Typography
-          variant="h5"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          May 2023
-        </Typography> */}
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
@@ -257,12 +224,9 @@ const WorkExperience = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Designed and implemented RESTful APIs using Python Django that dynamically handled user inputs, serving data to the JavaScript front-end while managing a load of over 200,000 concurrent users.
-            Created Python scripts for seamless data synchronization across 20+ tables, enhancing data consistency between client and company databases.
-            Created the continuous integration and deployment (CI/CD) pipelines, reducing build time by 17%.
-            Optimized QA testing efficiency and saved 4 hours of manual effort by automating data generation using Python scripts.
-            Participated in cross-functional code review processes, proactively providing and incorporating feedback from fellow engineers, and advancing skills in developing customized, scalable code.
-            Provided technical mentorship and guidance to 2 junior developers to facilitate their growth in software engineering practices.
+            Developed RESTful APIs in Python and Django, using Django ORM for seamless CRUD operations on PostgreSQL databases while managing a high-volume user load exceeding 200,000 concurrent users, ensuring efficient data delivery to the front-end.
+            Spearheaded a Proof of Concept (PoC) initiative on Apache Airflow, seamlessly integrating database synchronization between client and project databases, significantly boosting data consistency and operational efficiency.
+            Implemented CI/CD pipelines with Git and Jenkins for efficient application deployment on AWS, reducing build time by 17% to optimize development lifecycle.
           </Typography>
         </Box>
         <Typography
@@ -287,11 +251,8 @@ const WorkExperience = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Designed a comprehensive testing strategy, proficiently executed story test preparations, and efficiently conducted bug reporting utilizing Agile methodology while collaborating seamlessly with a team of 20+ developers.
-            Identified and addressed defects by coordinating closely with the development team, leading to the resolution of 83% of non-conforming product issues.
-            Created automation test scripts utilizing Selenium and Java to enhance testing efficiency by 76%.
-            Streamlined framework by refactoring 1164 lines of redundant code, resulting in a 3% code reduction.
-            Stepped into leadership positions, orchestrating and leading technical skill advancement activities for a team with over 80 members.
+            Planned a comprehensive testing strategy, executed story test preparations, and conducted bug reporting utilizing Agile methodology while collaborating seamlessly with a team of 20+ developers.
+            Developed and included automation test scripts into the Regression Suite for API testing, utilizing Selenium and Java, thereby increasing testing coverage to 76%.
           </Typography>
         </Box>
         <Typography
@@ -325,9 +286,7 @@ const WorkExperience = () => {
           align="center"
           className={classes.subtitle1}
           >  
-            Designed a voice based assistant which will give financial details of a company.
-            Developed a simple OTP service to verify client identity to increase security of application.
-            Created a basic HTML/CSS page which will display the financial details of a company in graphical format.
+            Developed an AWS voice-based assistant, and an OTP service for enhanced security to verify the user using Python, AWS Lambda, SNS, and DynamoDB, and designed an HTML page to display the company's data in graphical format.
           </Typography>
         </Box>
         <Typography
@@ -369,7 +328,7 @@ const WorkExperience = () => {
           align="center"
           className={classes.subtitle1}
           > 
-            Developed and executed comprehensive test plans for multiple software applications, ensuring thorough testing coverage.
+            Created and executed comprehensive test plans for software applications, ensuring thorough testing coverage. 
             Identified critical defects and worked closely with development teams to resolve them, improving product quality and customer satisfaction.
           </Typography>
         </Box>

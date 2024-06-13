@@ -13,7 +13,7 @@ const BoxComponent = styled(Box) (( { theme } ) => ({
     position: "relative",
     display: 'flex',
     flexDirection: 'column',
-    minHeight: theme.breakpoints.down("sm") ? '86vh' : '84vh',
+    minHeight: theme.breakpoints.down("sm") ? '90vh' : '84vh',
     alignItems: 'center',
     justifyContent: 'center',
     width: "100%",
@@ -63,11 +63,6 @@ const Home = () => {
           loop
           />
         </TypographySubTitleComponent>
-        {/* <TypographyDescriptonComponent variant="h5">
-        Passionate 4-year experienced Software Engineer specializing in web applications and backend systems. Skilled in Java,
-Python, and various frameworks. Proven at performance optimization and technical mentorship. Excels in cross-functional
-collaboration, code review, and best practices for software development. Can work independently or remotely as needed.
-        </TypographyDescriptonComponent> */}
       </BoxComponent>
     </React.Fragment>
   );

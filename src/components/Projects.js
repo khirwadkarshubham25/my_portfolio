@@ -14,6 +14,11 @@ const projects = [
         "url": "https://github.com/khirwadkarshubham25/sentiment-analysis-twitter"
     },
     {
+        "title": "E-Commerce Price Comparator",
+        "image": "images/pythonDjango.png",
+        "url": "https://github.com/khirwadkarshubham25/e-commerce-price-comparator"
+    },
+    {
         "title": "Store Management System",
         "image": "images/pythonJavascript.png",
         "url": "https://github.com/khirwadkarshubham25/Store-Management-Portal"
@@ -37,6 +42,11 @@ const projects = [
         "title": "Sales Data Analysis",
         "image": "images/pythonJupyter.png",
         "url": "https://github.com/khirwadkarshubham25/sales_data_analysis"
+    },
+    {
+        "title": "Receipt Processor",
+        "image": "images/pythonDjango.png",
+        "url": "https://github.com/khirwadkarshubham25/receipt_processor"
     },
     {
         "title": "Design and Analysis of Algorithms(DAA) Codes",

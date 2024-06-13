@@ -19,8 +19,12 @@ const data = [
                 "title": "JavaScript"
             },
             {
-                "icon": "images/scala.png",
-                "title": "Scala"
+                "icon": "images/HTML.png",
+                "title": "HTML"
+            },
+            {
+                "icon": "images/CSS.png",
+                "title": "CSS"
             }
         ]
     },
@@ -28,16 +32,12 @@ const data = [
         "title": "Databases",
         "items":[
             {
-                "icon": "images/mysql.jpeg",
-                "title": "MySQL"
-            },
-            {
                 "icon": "images/postgresql.png",
                 "title": "PostgreSQL"
             },
             {
-                "icon": "images/oracle.png",
-                "title": "Oracle"
+                "icon": "images/mysql.jpeg",
+                "title": "MySQL"
             },
             {
                 "icon": "images/sqlite.jpeg",
@@ -65,24 +65,16 @@ const data = [
                 "title": "React"
             },
             {
+                "icon": "images/jquery.png",
+                "title": "JQuery"
+            },
+            {
                 "icon": "images/selenium.png",
                 "title": "Selenium"
             },
             {
                 "icon": "images/appium.svg",
                 "title": "Appium"
-            },
-            {
-                "icon": "images/HTML.png",
-                "title": "HTML"
-            },
-            {
-                "icon": "images/CSS.png",
-                "title": "CSS"
-            },
-            {
-                "icon": "images/hadoop.png",
-                "title": "Hadoop"
             }
         ]
     },
@@ -90,12 +82,24 @@ const data = [
         "title": "Tools & Platforms",
         "items":[
             {
-                "icon": "images/git.jpeg",
-                "title": "Git"
+                "icon": "images/maven.png",
+                "title": "Maven"
+            },
+            {
+                "icon": "images/swagger.png",
+                "title": "Swagger"
+            },
+            {
+                "icon": "images/restful.png",
+                "title": "RESTful APIs"
             },
             {
                 "icon": "images/jira.png",
                 "title": "Jira"
+            },
+            {
+                "icon": "images/git.jpeg",
+                "title": "Git"
             },
             {
                 "icon": "images/docker.jpeg",
@@ -108,6 +112,18 @@ const data = [
             {
                 "icon": "images/airflow.svg",
                 "title": "Airflow"
+            },
+            {
+                "icon": "images/aws.png",
+                "title": "AWS"
+            },
+            {
+                "icon": "images/svn.png",
+                "title": "SVN"
+            },
+            {
+                "icon": "images/sdlc.jpeg",
+                "title": "SDLC"
             }
         ]
     }
