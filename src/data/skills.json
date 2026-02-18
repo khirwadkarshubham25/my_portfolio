@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "category": "Backend Development",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "skills": [
+        { "name": "Python", "level": 95 },
+        { "name": "Java", "level": 90 },
+        { "name": "Django", "level": 85 },
+        { "name": "Spring Boot", "level": 80 },
+        { "name": "Node.js", "level": 50 }
+      ]
+    },
+    {
+      "category": "Databases",
+      "gradient": "linear-gradient(135deg, #22c55e, #10b981)",
+      "skills": [
+        { "name": "PostgreSQL", "level": 90 },
+        { "name": "MySQL", "level": 90 },
+        { "name": "MongoDB", "level": 60 }
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "gradient": "linear-gradient(135deg, #a855f7, #ec4899)",
+      "skills": [
+        { "name": "Docker", "level": 95 },
+        { "name": "Git", "level": 95},
+        { "name": "AWS", "level": 75 },
+        { "name": "CI/CD", "level": 70 },
+        { "name": "Jenkins", "level": 70 }
+      ]
+    },
+    {
+      "category": "Cybersecurity",
+      "gradient": "linear-gradient(135deg, #ef4444, #f97316)",
+      "skills": [
+        { "name": "Network Security", "level": 70 },
+        { "name": "Cryptography", "level": 65 },
+        { "name": "Threat Threat", "level": 60},
+        { "name": "Vulnerability Management", "level": 60},
+        { "name": "Risk Management", "level": 40} 
+      ]
+    },
+    {
+      "category": "API & Protocols",
+      "gradient": "linear-gradient(135deg, #14b8a6, #06b6d4)",
+      "skills": [
+        { "name": "REST API", "level": 95 },
+        { "name": "OAuth 2.0", "level": 90 },
+        { "name": "SOAP API", "level": 75}
+      ]
+    }
+  ],
+  "otherTech": [
+    "Microservices", "Linux", "Agile/Scrum", "OWASP", "Security Auditing", "Secure Software Development", "Cloud Security",
+    "API Security", "Incident Response"
+  ]
+}

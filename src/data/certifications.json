@@ -1,0 +1,29 @@
+{
+  "certifications": [
+    {
+      "name": "CompTIA Security+",
+      "issuer": "CompTIA",
+      "date": "Dec 2025",
+      "credentialId": "COMP001022932865",
+      "emoji": "🔐",
+      "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
+      "verifyUrl": "",
+      "skills": ["Network Security", "Threat Management", "Risk Mitigation", "Cryptography"]
+    },
+    {
+      "name": "Google Professional Cybersecurity",
+      "issuer": "Coursera",
+      "date": "Sep 2025",
+      "emoji": "🛡",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "verifyUrl": "#",
+      "skills": ["Threat Management", "Intrusion Detection and Prevention", "Network Security", "Security Management"]
+    }
+  ],
+  "stats": [
+    { "value": "6", "label": "Pro Certs" },
+    { "value": "6", "label": "Badges" },
+    { "value": "15+", "label": "Courses" },
+    { "value": "100%", "label": "Verified" }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "type": "Open Source",
+      "emoji": "🌿",
+      "gradient": "linear-gradient(135deg, #22c55e, #10b981)",
+      "items": [
+        { "name": "Contributed to Node.js core", "detail": "3 merged PRs", "date": "2024" },
+        { "name": "Kubernetes documentation", "detail": "15+ improvements", "date": "2023" },
+        { "name": "Redis client library", "detail": "Maintainer", "date": "Ongoing" }
+      ]
+    },
+    {
+      "type": "Competitive Programming",
+      "emoji": "💻",
+      "gradient": "linear-gradient(135deg, #f97316, #eab308)",
+      "items": [
+        { "name": "LeetCode Contest", "detail": "Top 5% globally", "date": "2024" },
+        { "name": "CodeForces", "detail": "Expert (1800+)", "date": "2024" },
+        { "name": "Google Code Jam", "detail": "Round 2 qualifier", "date": "2023" }
+      ]
+    },
+    {
+      "type": "CTF & Security",
+      "emoji": "🎯",
+      "gradient": "linear-gradient(135deg, #ef4444, #ec4899)",
+      "items": [
+        { "name": "HackTheBox", "detail": "Pro Hacker rank", "date": "Active" },
+        { "name": "DEF CON CTF", "detail": "Team participant", "date": "2023" },
+        { "name": "PicoCTF", "detail": "Top 100 finish", "date": "2024" }
+      ]
+    },
+    {
+      "type": "Community",
+      "emoji": "👥",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "items": [
+        { "name": "Tech Meetup Speaker", "detail": "5+ talks", "date": "2023–24" },
+        { "name": "Mentorship Program", "detail": "Mentored 10+ devs", "date": "Ongoing" },
+        { "name": "Code Review Contributor", "detail": "500+ reviews", "date": "2024" }
+      ]
+    },
+    {
+      "type": "Stack Overflow",
+      "emoji": "💬",
+      "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
+      "items": [
+        { "name": "Reputation", "detail": "10,000+ points", "date": "2024" },
+        { "name": "Answers", "detail": "200+ accepted", "date": "All time" },
+        { "name": "Gold Badges", "detail": "3 earned", "date": "2023–24" }
+      ]
+    }
+  ],
+  "recentActivity": [
+    { "action": "Published article", "title": "\"Building Resilient Microservices\"", "platform": "Medium", "time": "2 days ago" },
+    { "action": "Solved challenge", "title": "Web Exploitation – Hard", "platform": "HackTheBox", "time": "5 days ago" },
+    { "action": "Contributed to", "title": "kubernetes/kubernetes", "platform": "GitHub", "time": "1 week ago" },
+    { "action": "Answered question", "title": "Node.js async/await patterns", "platform": "Stack Overflow", "time": "1 week ago" },
+    { "action": "Completed", "title": "LeetCode Weekly Contest 389", "platform": "LeetCode", "time": "2 weeks ago" },
+    { "action": "Gave talk", "title": "Securing REST APIs", "platform": "Tech Meetup", "time": "3 weeks ago" }
+  ],
+  "stats": [
+    { "value": "150+", "label": "GitHub Repos" },
+    { "value": "500+", "label": "Contributions" },
+    { "value": "50+", "label": "CTF Challenges" },
+    { "value": "15+", "label": "Tech Talks" }
+  ]
+}

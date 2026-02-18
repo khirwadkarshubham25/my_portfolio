@@ -1,0 +1,16 @@
+{
+  "bio": [
+    "I'm a passionate <primary>Backend Engineer</primary> with over 5 years of experience building robust, scalable systems that power modern applications. My journey in tech has been driven by curiosity and a commitment to excellence.",
+    "As a <secondary>Cybersecurity Analyst</secondary>, I bring a security-first mindset to every project. I believe that great software isn't just about features — it's about building systems that are resilient, secure, and maintainable.",
+    "I specialize in designing distributed architectures, optimizing database performance, and implementing security best practices. Whether it's crafting elegant APIs or fortifying systems against vulnerabilities, I approach each challenge with creativity and precision."
+  ],
+  "highlights": [
+    { "emoji": "🖥️", "title": "Backend Architecture", "description": "Designing scalable microservices and distributed systems" },
+    { "emoji": "🛡️", "title": "Cybersecurity", "description": "Securing applications and infrastructure against threats" },
+    { "emoji": "🗄️", "title": "Database Expert", "description": "Optimizing queries and managing complex data relationships" },
+    { "emoji": "🔐", "title": "Security Audits", "description": "Conducting vulnerability assessments" },
+    { "emoji": "✨", "title": "Clean Code", "description": "Writing maintainable, testable, and well-documented code" },
+    { "emoji": "⚡", "title": "Performance", "description": "Optimizing systems for speed and efficiency at scale" }
+  ],
+  "funFact": "When I'm not architecting new systems or securing applications, you'll find me gaming with friends or exploring new destinations while traveling."
+}

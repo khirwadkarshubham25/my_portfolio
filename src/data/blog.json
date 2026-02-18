@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "title": "File Integrity Monitoring: The Silent Guardian of Your Systems",
+      "excerpt": "Attackers leave traces. File Integrity Monitoring catches them. By monitoring critical files and configurations, FIM detects the subtle changes that signal a compromise-modified binaries, altered configs, unauthorized scripts. Discover how this security control transforms from reactive forensics to proactive defense.",
+      "date": "Feb 10, 2026",
+      "readTime": "4 min",
+      "views": "5",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["FIM", "Security", "Monitoring", "Compliance"],
+      "url": "https://medium.com/@khirwadkar.shubham25/file-integrity-monitoring-the-silent-guardian-of-your-systems-4cd6350ebbc5"
+    }
+  ],
+  "stats": [
+    { "value": "1", "label": "Articles" },
+    { "value": "5", "label": "Total Views" },
+    { "value": "0", "label": "Subscribers" },
+    { "value": "4 min", "label": "Avg Read" }
+  ]
+}

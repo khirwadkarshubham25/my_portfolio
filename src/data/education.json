@@ -1,0 +1,24 @@
+{
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "field": "Artificial Intelligence and Databases",
+      "institution": "University of Texas at Arlington",
+      "location": "Arlington, TX",
+      "period": "2021 – 2023",
+      "gradient": "linear-gradient(135deg, #00ff9f, #00d4ff)",
+      "description": "Advanced coursework in artificial intelligence, machine learning and databases",
+      "courses": ["Artificial Intelligence", "Machine Learning", "Neural Networks", "Database Systems", "DBMS Models and Implementation", "Cloud Computing and Big Data", "Computer Networks", "Data Analysis and Modeling Techs", "Design and Analysis Algorithms", "Software Engineer I & II"]
+    },
+    {
+      "degree": "Bachelor Of Technology in Computer Science",
+      "field": "Computer Science",
+      "institution": "Vishwakarma Institute of Technology, Pune",
+      "location": "Pune, MH",
+      "period": "2014 – 2018",
+      "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
+      "description": "Strong foundation in computer science fundamentals and software engineering.",
+      "courses": ["Data Structures & Algorithms", "Operating Systems", "Database Systems", "Computer Architecture", "Software Engineering", "Discrete Mathematics", "Network Security", "Artificial Intelligence", "Computer Networks", "Python", ".Net"]
+    }
+  ]
+}

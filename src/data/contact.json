@@ -1,0 +1,29 @@
+{
+  "info": [
+    {
+      "emoji": "✉️",
+      "label": "Email",
+      "value": "khirwadkarshubham09@gmail.com",
+      "href": "mailto:khirwadkarshubham09@gmail.com",
+      "gradient": "linear-gradient(135deg, #ef4444, #ec4899)"
+    },
+    {
+      "emoji": "📍",
+      "label": "Location",
+      "value": "Allen, TX",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)"
+    },
+    {
+      "emoji": "📞",
+      "label": "Phone",
+      "value": "+1 (972) 799-5914",
+      "gradient": "linear-gradient(135deg, #22c55e, #10b981)"
+    }
+  ],
+  "socials": [
+    { "name": "LinkedIn", "href": "https://www.linkedin.com/in/sk-b62963111/", "color": "#0077b5", "emoji": "in" },
+    { "name": "GitHub", "href": "https://github.com/khirwadkarshubham25", "color": "#ffffff", "emoji": "⌥" },
+    { "name": "Email", "href": "mailto:khirwadkarshubham09@gmail.com", "color": "#ff006e", "emoji": "✉" }
+  ],
+  "availability": "Open to remote backend engineering roles and security consulting projects"
+}

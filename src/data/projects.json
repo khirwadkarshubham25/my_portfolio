@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "title": "Password Manager",
+      "emoji": "🔐",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "description": "Full-stack password manager with AES encryption, secure authentication, and token-based session management. Built to explore real-world security challenges like XSS, SQL injection prevention, and session hijacking defense.",
+      "tags": ["Python", "Django", "Hashing", "Cryptography"],
+      "github": "https://github.com/khirwadkarshubham25/password_manager"
+    },
+    {
+      "title": "File Integrity Monitoring System",
+      "emoji": "🛡",
+      "gradient": "linear-gradient(135deg, #ef4444, #ec4899)",
+      "description": "The File Integrity Monitoring System is a security application designed to detect, monitor, and report on file system changes in real-time. It creates baseline snapshots of critical files and directories, continuously monitors them for modifications, and generates alerts when changes are detected.",
+      "tags": ["Python", "Django", "File System", "File Security", "File Integrity Monitoring"],
+      "github": "https://github.com/khirwadkarshubham25/file_integrity_monitoring"
+    },
+    {
+      "title": "Phishing Email Detection",
+      "emoji": "🔍",
+      "gradient": "linear-gradient(135deg, #22c55e, #10b981)",
+      "description": "Machine learning model to detect and classify phishing emails using RandomForest Classifer and pattern analysis. Analyzes headers, sender behavior, and content to flag suspicious messages in real time.",
+      "tags": ["Python", "Machine Learning", "RandomForest Classifier", "TF-Idf Vectorizer"],
+      "github": "https://github.com/khirwadkarshubham25/phishing_email_detection"
+    },
+    {
+      "title": "Port Scanning",
+      "emoji": "🕵️‍♂️",
+      "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
+      "description": "Python-based network reconnaissance tool for security assessments. Scans infrastructure, identifies open ports and active hosts, and maps potential attack surfaces using TCP/IP protocols.",
+      "tags": ["Python", "Vulnerability Scanners", "Network Security", "Port Scanning"],
+      "github": "https://github.com/khirwadkarshubham25/port_scanning"
+    },
+    {
+      "title": "Store Management Portal",
+      "emoji": "📊",
+      "gradient": "linear-gradient(135deg, #f97316, #eab308)",
+      "description": "Full-stack store management system with React frontend and Django REST backend. Features role-based access control, inventory tracking, and real-time data synchronization.",
+      "tags": ["Python", "Django", "Node.js", "Oracle DB", "SQLite"],
+      "github": "https://github.com/khirwadkarshubham25/Store-Management-Portal"
+    }
+  ],
+  "githubUrl": "https://github.com/khirwadkarshubham25"
+}

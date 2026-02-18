@@ -1,0 +1,54 @@
+{
+  "experiences": [
+    {
+      "title": "Software Engineer",
+      "company": "Benefit Harbor, LP",
+      "location": "Allen, TX",
+      "period": "July 2023 – Present",
+      "type": "Full-time",
+      "color": "#00ff9f",
+      "achievements": [
+        "Reduced API latency by 30% across critical endpoints by optimizing 180+ PostgreSQL queries and implementing strategic indexing, significantly improving platform responsiveness for 500+ employer clients.",
+        "Engineered core features for a proprietary benefits administration platform supporting 500+ employer clients, facilitating seamless data exchange between HR systems and insurance carriers.",
+        "Designed and implemented encryption-at-rest and in-transit controls across databases storing sensitive employee benefit (PHI) data, ensuring continuous adherence to HIPAA and state privacy mandates.",
+        "Manually audited and refactored core legacy applications, implemented robust input validation, and replaced 40+ vulnerable queries with Prepared Statements to eliminate high-risk SQL Injection and Cross-Site Scripting flaws."
+      ],
+      "tags": ["Java", "Spring Boot", "PostgreSQL", "REST APIs", "Agile"]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Coreview Systems Pvt Ltd.",
+      "location": "Pune, MH",
+      "period": "November 2019 – July 2021",
+      "type": "Full-time",
+      "color": "#00d4ff",
+      "achievements": [
+        "Architected and developed the proprietary backend framework from scratch, enforcing clean architecture and standardized components across mission-critical services, which reduced critical production incidents by 40%.",
+        "Built automated CI/CD pipelines using Git, Docker, and Jenkins for backend service deployment on AWS, achieving a 100% deployment success rate with zero downtime.",
+        "Implemented robust data masking and encryption schemes (AES-256) for salary, tax, and employee PII stored in the high-volume transactional database layer, protecting critical financial information.",
+        "Implemented modern, secure login flows utilizing OAuth 2.0 authorization protocols and JSON Web Tokens for session management, enforcing Multi-Factor Authentication (MFA) and strong password policies across all administrative and customer portals."
+      ],
+      "tags": ["Python", "Django", "PostgreSQL", "Docker", "AWS"]
+    },
+    {
+      "title": "Programmer Analyst",
+      "company": "Cognizant",
+      "location": "Pune, MH",
+      "period": "July 2018 – October 2019",
+      "type": "Full-time",
+      "color": "#ff006e",
+      "achievements": [],
+      "tags": ["Java", "Selenium", "API Testing", "REST APIs", "Git"]
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Tech Mahindra",
+      "location": "Pune, MH",
+      "period": "February 2018 – May 2018",
+      "type": "Internship",
+      "color": "#a855f7",
+      "achievements": [],
+      "tags": ["Python", "AWS", "DynamoDB"]
+    }
+  ]
+}
