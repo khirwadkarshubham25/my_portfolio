@@ -27,7 +27,7 @@ const navItems = [
   { id: 'skills', label: 'Skills', icon: '⚡' },
   { id: 'experience', label: 'Career', icon: '📊' },
   { id: 'education', label: 'Learn', icon: '🎓' },
-  { id: 'activity', label: 'Active', icon: '🔥' },
+//   { id: 'activity', label: 'Active', icon: '🔥' },
   { id: 'blog', label: 'Blog', icon: '📝' },
   { id: 'contact', label: 'Contact', icon: '📧' },
 ]
@@ -43,7 +43,7 @@ export default function MobileLayout() {
       case 'skills': return <Skills />
       case 'experience': return <Experience />
       case 'education': return <Education />
-      case 'activity': return <Activity />
+    //   case 'activity': return <Activity />
       case 'blog': return <Blog />
       case 'contact': return <Contact />
       default: return <Hero />
