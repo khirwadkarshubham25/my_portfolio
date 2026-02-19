@@ -105,7 +105,7 @@ export default function About() {
             {[
               { value: '5+', label: 'Years Exp', color: C.primary },
               { value: '20+', label: 'Projects', color: C.secondary },
-              { value: '3', label: 'Certs', color: C.accent },
+              { value: '2', label: 'Certs', color: C.accent },
               { value: '∞', label: 'Coffee ☕', color: '#f97316' },
             ].map((s, i) => (
               <div key={i} style={{

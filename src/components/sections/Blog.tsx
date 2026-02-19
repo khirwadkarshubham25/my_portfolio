@@ -86,10 +86,7 @@ export default function Blog() {
 
         {/* ── Featured article ── */}
         {featured && (
-          <a
-            href={featured.url}
-            target="_blank"
-            rel="noopener noreferrer"
+          <div
             onMouseEnter={() => setHovered(-1)}
             onMouseLeave={() => setHovered(null)}
             style={{
@@ -169,7 +166,7 @@ export default function Blog() {
                 </div>
               </div>
             </div>
-          </a>
+          </div>
         )}
 
         {/* ── Article grid ── */}
@@ -178,10 +175,8 @@ export default function Blog() {
             const idx = i + 1
             const isHovered = hovered === idx
             return (
-              <a 
+              <div 
                 key={i}
-                href={post.url}
-                target="_blank"
                 rel="noopener noreferrer"
                 onMouseEnter={() => setHovered(idx)}
                 onMouseLeave={() => setHovered(null)}
@@ -244,7 +239,7 @@ export default function Blog() {
                     </a>
                   </div>
                 </div>
-              </a>
+              </div>
             )
           })}
         </div>

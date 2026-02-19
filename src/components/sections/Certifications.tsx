@@ -40,7 +40,8 @@ export default function Certifications() {
               <div style={{ height: '3px', width: '8px', background: `${C.primary}30`, borderRadius: '4px' }} />
             </div>
             <p style={{ color: '#64748b', fontSize: '0.88rem' }}>
-              {data.certifications.length} Professional Certifications · {data.badges.length} Community Badges
+              {data.certifications.length} Professional Certifications · 
+              {/* {data.badges.length} Community Badges */}
             </p>
           </div>
         </div>
@@ -248,7 +249,7 @@ export default function Certifications() {
               <div style={{ height: '1px', flex: 1, background: `linear-gradient(90deg, ${C.secondary}30, transparent)` }} />
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '0.75rem' }}>
+            {/* <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '0.75rem' }}>
               {data.badges.map((b, i) => (
                 <div key={i}
                   onMouseEnter={() => setHoveredBadge(i)}
@@ -272,7 +273,7 @@ export default function Certifications() {
                   </p>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
 

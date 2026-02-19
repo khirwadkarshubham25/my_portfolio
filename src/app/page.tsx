@@ -2,14 +2,42 @@
 
 import { useState, useEffect } from 'react'
 import DeviceFrame from '../components/DeviceFrame'
+import MobileLayout from '../components/MobileLayout'
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     setIsLoaded(true)
+    
+    // Check if mobile
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
+    
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    return () => window.removeEventListener('resize', checkMobile)
   }, [])
 
+  // Mobile view - no device frame, direct content
+  if (isMobile) {
+    return (
+      <main style={{
+        width: '100vw',
+        height: '100vh',
+        background: '#050811',
+        overflow: 'hidden',
+        position: 'fixed',
+        inset: 0,
+      }}>
+        <MobileLayout />
+      </main>
+    )
+  }
+
+  // Desktop view - with device frame
   return (
     <main style={{
       width: '100vw',

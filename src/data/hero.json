@@ -5,7 +5,7 @@
   "stats": [
     { "value": "5+", "label": "Years Experience" },
     { "value": "20+", "label": "Projects Completed" },
-    { "value": "3", "label": "Certifications" }
+    { "value": "2", "label": "Certifications" }
   ],
   "buttons": [
     { "label": "View My Work", "action": "projects" },
