@@ -7,7 +7,7 @@
       "credentialId": "COMP001022932865",
       "emoji": "🔐",
       "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
-      "verifyUrl": "",
+      "verifyUrl": "https://cp.certmetrics.com/CompTIA/en/public/verify/credential/ed45ce6cefa3477da75720b1f7a95d14",
       "skills": ["Network Security", "Threat Management", "Risk Mitigation", "Cryptography"]
     },
     {
@@ -16,7 +16,7 @@
       "date": "Sep 2025",
       "emoji": "🛡",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
-      "verifyUrl": "#",
+      "verifyUrl": "https://www.coursera.org/account/accomplishments/professional-cert/JK4GI1XTR66D",
       "skills": ["Threat Management", "Intrusion Detection and Prevention", "Network Security", "Security Management"]
     }
   ],

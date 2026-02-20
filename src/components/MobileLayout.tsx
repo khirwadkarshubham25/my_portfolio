@@ -1,15 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-import Hero from './sections/Hero'
-import About from './sections/About'
-import Projects from './sections/Projects'
-import Skills from './sections/Skills'
-import Experience from './sections/Experience'
-import Education from './sections/Education'
-import Activity from './sections/Activity'
-import Blog from './sections/Blog'
-import Contact from './sections/Contact'
+import { useState, lazy, Suspense, memo } from 'react'
 
 export const COLORS = {
   primary: '#00ff9f',
@@ -19,6 +10,17 @@ export const COLORS = {
   darker: '#050811',
   light: '#1a1f3a',
 }
+
+// Lazy load sections for better performance
+const Hero = lazy(() => import('./sections/Hero'))
+const About = lazy(() => import('./sections/About'))
+const Projects = lazy(() => import('./sections/Projects'))
+const Skills = lazy(() => import('./sections/Skills'))
+const Experience = lazy(() => import('./sections/Experience'))
+const Education = lazy(() => import('./sections/Education'))
+const Activity = lazy(() => import('./sections/Activity'))
+const Blog = lazy(() => import('./sections/Blog'))
+const Contact = lazy(() => import('./sections/Contact'))
 
 const navItems = [
   { id: 'hero', label: 'Home', icon: '🏠' },
@@ -32,6 +34,78 @@ const navItems = [
   { id: 'contact', label: 'Contact', icon: '📧' },
 ]
 
+// Loading fallback component
+const SectionLoader = () => (
+  <div style={{
+    width: '100%',
+    height: '100vh',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    background: COLORS.darker,
+  }}>
+    <div style={{
+      width: '40px',
+      height: '40px',
+      border: `3px solid ${COLORS.primary}30`,
+      borderTop: `3px solid ${COLORS.primary}`,
+      borderRadius: '50%',
+      animation: 'spin 0.8s linear infinite',
+    }} />
+    <style>{`
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    `}</style>
+  </div>
+)
+
+// Memoized navigation button
+const NavButton = memo(({ item, isActive, onClick }: any) => (
+  <button
+    onClick={onClick}
+    style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      gap: '4px',
+      padding: '8px 6px',
+      background: isActive ? `${COLORS.primary}15` : 'transparent',
+      border: 'none',
+      borderRadius: '12px',
+      cursor: 'pointer',
+      transition: 'all 0.2s ease',
+      minWidth: '48px',
+      flex: 1,
+      maxWidth: '80px',
+      WebkitTapHighlightColor: 'transparent',
+    }}
+  >
+    <span style={{
+      fontSize: '20px',
+      filter: isActive ? 'brightness(1.2)' : 'brightness(0.8)',
+      transition: 'filter 0.2s',
+    }}>
+      {item.icon}
+    </span>
+    <span style={{
+      fontSize: '10px',
+      fontWeight: isActive ? 700 : 500,
+      color: isActive ? COLORS.primary : '#94a3b8',
+      transition: 'color 0.2s',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      maxWidth: '100%',
+    }}>
+      {item.label}
+    </span>
+  </button>
+))
+
+NavButton.displayName = 'NavButton'
+
 export default function MobileLayout() {
   const [currentSection, setCurrentSection] = useState<string>('hero')
 
@@ -43,10 +117,10 @@ export default function MobileLayout() {
       case 'skills': return <Skills />
       case 'experience': return <Experience />
       case 'education': return <Education />
-    //   case 'activity': return <Activity />
+      case 'activity': return <Activity />
       case 'blog': return <Blog />
       case 'contact': return <Contact />
-      default: return <Hero />
+      default: return <Hero onNavigate={setCurrentSection} />
     }
   }
 
@@ -66,8 +140,11 @@ export default function MobileLayout() {
         overflow: 'auto',
         background: `linear-gradient(180deg, ${COLORS.darker}, ${COLORS.dark})`,
         WebkitOverflowScrolling: 'touch',
+        willChange: 'scroll-position',
       }}>
-        {renderSection()}
+        <Suspense fallback={<SectionLoader />}>
+          {renderSection()}
+        </Suspense>
       </div>
 
       {/* Bottom navigation bar */}
@@ -79,6 +156,7 @@ export default function MobileLayout() {
         height: '72px',
         background: `${COLORS.light}95`,
         backdropFilter: 'blur(20px)',
+        WebkitBackdropFilter: 'blur(20px)',
         borderTop: `1px solid ${COLORS.primary}20`,
         display: 'flex',
         alignItems: 'center',
@@ -86,52 +164,16 @@ export default function MobileLayout() {
         padding: '0 8px',
         boxShadow: `0 -4px 20px rgba(0,0,0,0.3)`,
         zIndex: 100,
+        transform: 'translateZ(0)',
       }}>
-        {navItems.map((item) => {
-          const isActive = currentSection === item.id
-          return (
-            <button
-              key={item.id}
-              onClick={() => setCurrentSection(item.id)}
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: '4px',
-                padding: '8px 6px',
-                background: isActive ? `${COLORS.primary}15` : 'transparent',
-                border: 'none',
-                borderRadius: '12px',
-                cursor: 'pointer',
-                transition: 'all 0.2s ease',
-                minWidth: '48px',
-                flex: 1,
-                maxWidth: '80px',
-              }}
-            >
-              <span style={{
-                fontSize: '20px',
-                filter: isActive ? 'brightness(1.2)' : 'brightness(0.8)',
-                transition: 'filter 0.2s',
-              }}>
-                {item.icon}
-              </span>
-              <span style={{
-                fontSize: '10px',
-                fontWeight: isActive ? 700 : 500,
-                color: isActive ? COLORS.primary : '#94a3b8',
-                transition: 'color 0.2s',
-                whiteSpace: 'nowrap',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                maxWidth: '100%',
-              }}>
-                {item.label}
-              </span>
-            </button>
-          )
-        })}
+        {navItems.map((item) => (
+          <NavButton
+            key={item.id}
+            item={item}
+            isActive={currentSection === item.id}
+            onClick={() => setCurrentSection(item.id)}
+          />
+        ))}
       </nav>
     </div>
   )
