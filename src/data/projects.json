@@ -4,7 +4,7 @@
       "title": "Password Manager",
       "emoji": "🔐",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
-      "description": "Full-stack password manager with AES encryption, secure authentication, and token-based session management. Built to explore real-world security challenges like XSS, SQL injection prevention, and session hijacking defense.",
+      "description": "A Django-powered password vault with JWT auth, Fernet encryption, breach detection, and enterprise-style admin controls for managing users, roles, and password policies.",
       "tags": ["Python", "Django", "Hashing", "Cryptography"],
       "github": "https://github.com/khirwadkarshubham25/password_manager"
     },

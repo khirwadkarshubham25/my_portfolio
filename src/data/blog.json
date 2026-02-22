@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "title": "Why Every Company and Person Should Use a Password Manager",
+      "excerpt": "Passwords are the weakest link in digital security - and also the easiest one to fix.",
+      "date": "Feb 22, 2026",
+      "readTime": "8 min",
+      "views": "0",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Cybersecurity", "Password Manager", "Security", "Django", "Encryption"],
+      "url": "https://medium.com/@khirwadkar.shubham25/file-integrity-monitoring-the-silent-guardian-of-your-systems-4cd6350ebbc5"
+    },
+    {
       "title": "File Integrity Monitoring: The Silent Guardian of Your Systems",
       "excerpt": "Attackers leave traces. File Integrity Monitoring catches them. By monitoring critical files and configurations, FIM detects the subtle changes that signal a compromise-modified binaries, altered configs, unauthorized scripts. Discover how this security control transforms from reactive forensics to proactive defense.",
       "date": "Feb 10, 2026",
@@ -13,9 +24,9 @@
     }
   ],
   "stats": [
-    { "value": "1", "label": "Articles" },
+    { "value": "2", "label": "Articles" },
     { "value": "5", "label": "Total Views" },
     { "value": "0", "label": "Subscribers" },
-    { "value": "4 min", "label": "Avg Read" }
+    { "value": "6 min", "label": "Avg Read" }
   ]
 }
