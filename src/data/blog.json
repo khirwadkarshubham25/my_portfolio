@@ -5,7 +5,7 @@
       "excerpt": "Passwords are the weakest link in digital security - and also the easiest one to fix.",
       "date": "Feb 22, 2026",
       "readTime": "8 min",
-      "views": "0",
+      "views": "4",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Cybersecurity", "Password Manager", "Security", "Django", "Encryption"],
@@ -25,7 +25,7 @@
   ],
   "stats": [
     { "value": "2", "label": "Articles" },
-    { "value": "5", "label": "Total Views" },
+    { "value": "9", "label": "Total Views" },
     { "value": "0", "label": "Subscribers" },
     { "value": "6 min", "label": "Avg Read" }
   ]
