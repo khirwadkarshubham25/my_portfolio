@@ -1,8 +1,19 @@
 {
   "posts": [
     {
+      "title": "Linux: The Operating System That Powers the Cyber World",
+      "excerpt": "A beginner's guide to understanding Linux - what it is, where it came from, and why every cybersecurity professional swears by it.",
+      "date": "Mar 5, 2026",
+      "readTime": "8 min",
+      "views": "3",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Linux", "Cybersecurity", "Operating Systems", "InfoSec", "Security"],
+      "url": "https://medium.com/@khirwadkar.shubham25/linux-the-operating-system-that-powers-the-cyber-world-ad3c40e51b31"
+    },
+    {
       "title": "TryHackMe Walkthrough: Cyber Security 101 — Start Your Cyber Security Journey",
-      "excerpt": "A hands-on walkthrough of Rooms 1–3: Intro to Offensive Security, Intro to Defensive Security, and Search Skills",
+      "excerpt": "A hands-on walkthrough of Rooms 1-3: Intro to Offensive Security, Intro to Defensive Security, and Search Skills",
       "date": "Mar 1, 2026",
       "readTime": "10 min",
       "views": "0",
@@ -35,9 +46,9 @@
     }
   ],
   "stats": [
-    { "value": "3", "label": "Articles" },
-    { "value": "9", "label": "Total Views" },
-    { "value": "0", "label": "Subscribers" },
-    { "value": "7 min", "label": "Avg Read" }
+    { "value": "4", "label": "Articles" },
+    { "value": "12", "label": "Total Views" },
+    { "value": "1", "label": "Subscribers" },
+    { "value": "8 min", "label": "Avg Read" }
   ]
 }
