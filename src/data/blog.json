@@ -1,11 +1,22 @@
 {
   "posts": [
     {
+      "title": "TryHackMe Walkthrough: Linux Fundamentals Part 1",
+      "excerpt": "A beginner-friendly walkthrough of the Linux Fundamentals Part 1 room on TryHackMe.",
+      "date": "Mar 7, 2026",
+      "readTime": "8 min",
+      "views": "3",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-linux-fundamentals-part-1-ee5ff319996b"
+    },
+    {
       "title": "Linux: The Operating System That Powers the Cyber World",
       "excerpt": "A beginner's guide to understanding Linux - what it is, where it came from, and why every cybersecurity professional swears by it.",
       "date": "Mar 5, 2026",
       "readTime": "8 min",
-      "views": "3",
+      "views": "4",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Linux", "Cybersecurity", "Operating Systems", "InfoSec", "Security"],
@@ -16,7 +27,7 @@
       "excerpt": "A hands-on walkthrough of Rooms 1-3: Intro to Offensive Security, Intro to Defensive Security, and Search Skills",
       "date": "Mar 1, 2026",
       "readTime": "10 min",
-      "views": "0",
+      "views": "1",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Cybersecurity", "Ethical Hacking", "Offensive Security", "Defensive Security"],
@@ -27,7 +38,7 @@
       "excerpt": "Passwords are the weakest link in digital security - and also the easiest one to fix.",
       "date": "Feb 22, 2026",
       "readTime": "8 min",
-      "views": "4",
+      "views": "5",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Cybersecurity", "Password Manager", "Security", "Django", "Encryption"],
@@ -38,7 +49,7 @@
       "excerpt": "Attackers leave traces. File Integrity Monitoring catches them. By monitoring critical files and configurations, FIM detects the subtle changes that signal a compromise-modified binaries, altered configs, unauthorized scripts. Discover how this security control transforms from reactive forensics to proactive defense.",
       "date": "Feb 10, 2026",
       "readTime": "4 min",
-      "views": "5",
+      "views": "6",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["FIM", "Security", "Monitoring", "Compliance"],
@@ -46,8 +57,8 @@
     }
   ],
   "stats": [
-    { "value": "4", "label": "Articles" },
-    { "value": "12", "label": "Total Views" },
+    { "value": "5", "label": "Articles" },
+    { "value": "19", "label": "Total Views" },
     { "value": "1", "label": "Subscribers" },
     { "value": "8 min", "label": "Avg Read" }
   ]
