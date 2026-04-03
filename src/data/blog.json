@@ -1,11 +1,33 @@
 {
   "posts": [
     {
+      "title": "TryHackMe Walkthrough: Linux Fundamentals Part 3",
+      "excerpt": "A hands-on walkthrough of the Linux Fundamentals Part 3 room on TryHackMe.",
+      "date": "Apr 1, 2026",
+      "readTime": "10 min",
+      "views": "1",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-linux-fundamentals-part-3-b6d9725c20a8"
+    },
+    {
+      "title": "TryHackMe Walkthrough: Linux Fundamentals Part 2",
+      "excerpt": "A hands-on walkthrough of the Linux Fundamentals Part 2 room on TryHackMe.",
+      "date": "Mar 11, 2026",
+      "readTime": "8 min",
+      "views": "3",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-linux-fundamentals-part-2-ca43b42f717a"
+    },
+    {
       "title": "TryHackMe Walkthrough: Linux Fundamentals Part 1",
       "excerpt": "A beginner-friendly walkthrough of the Linux Fundamentals Part 1 room on TryHackMe.",
       "date": "Mar 7, 2026",
       "readTime": "8 min",
-      "views": "3",
+      "views": "13",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -27,7 +49,7 @@
       "excerpt": "A hands-on walkthrough of Rooms 1-3: Intro to Offensive Security, Intro to Defensive Security, and Search Skills",
       "date": "Mar 1, 2026",
       "readTime": "10 min",
-      "views": "1",
+      "views": "3",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Cybersecurity", "Ethical Hacking", "Offensive Security", "Defensive Security"],
@@ -57,8 +79,8 @@
     }
   ],
   "stats": [
-    { "value": "5", "label": "Articles" },
-    { "value": "19", "label": "Total Views" },
+    { "value": "7", "label": "Articles" },
+    { "value": "35", "label": "Total Views" },
     { "value": "1", "label": "Subscribers" },
     { "value": "8 min", "label": "Avg Read" }
   ]
