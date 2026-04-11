@@ -5,7 +5,7 @@
       "excerpt": "A hands-on walkthrough of the Linux Fundamentals Part 3 room on TryHackMe.",
       "date": "Apr 1, 2026",
       "readTime": "10 min",
-      "views": "1",
+      "views": "10",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -16,7 +16,7 @@
       "excerpt": "A hands-on walkthrough of the Linux Fundamentals Part 2 room on TryHackMe.",
       "date": "Mar 11, 2026",
       "readTime": "8 min",
-      "views": "3",
+      "views": "5",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -27,7 +27,7 @@
       "excerpt": "A beginner-friendly walkthrough of the Linux Fundamentals Part 1 room on TryHackMe.",
       "date": "Mar 7, 2026",
       "readTime": "8 min",
-      "views": "13",
+      "views": "19",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -80,7 +80,7 @@
   ],
   "stats": [
     { "value": "7", "label": "Articles" },
-    { "value": "35", "label": "Total Views" },
+    { "value": "52", "label": "Total Views" },
     { "value": "1", "label": "Subscribers" },
     { "value": "8 min", "label": "Avg Read" }
   ]
