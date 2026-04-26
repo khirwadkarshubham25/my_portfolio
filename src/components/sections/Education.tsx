@@ -267,7 +267,7 @@ export default function Education() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1.25rem' }}>
                 <div style={{ height: '1px', flex: 1, background: `linear-gradient(90deg, transparent, ${C.accent}30)` }} />
                 <h3 style={{ fontSize: '0.85rem', fontWeight: 700, color: C.accent, letterSpacing: '2px', textTransform: 'uppercase' as const, whiteSpace: 'nowrap' as const, margin: 0 }}>
-                  🏆 Paths Completed
+                  🗺️ Paths Completed
                 </h3>
                 <div style={{ height: '1px', flex: 1, background: `linear-gradient(90deg, ${C.accent}30, transparent)` }} />
               </div>
