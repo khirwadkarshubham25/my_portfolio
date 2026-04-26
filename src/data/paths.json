@@ -1,0 +1,13 @@
+{
+  "paths": [
+    {
+      "name": "Cyber Security 101",
+      "issuer": "TryHackMe",
+      "date": "April 2026",
+      "emoji": "🔐",
+      "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
+      "verifyUrl": "https://tryhackme.com/p/khirwadkarshubham25?tab=certificates",
+      "skills": ["Network Security", "Cryptography", "Linux", "Windows", "Active Directory", "Offensive Security", "Defensive Security"]
+    }
+  ]
+}

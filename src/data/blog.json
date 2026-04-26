@@ -1,11 +1,33 @@
 {
   "posts": [
     {
+      "title": "TryHackMe Walkthrough: Windows Fundamentals Part 1",
+      "excerpt": "A hands-on walkthrough of the Windows Fundamentals Part 1 room on TryHackMe.",
+      "date": "Apr 26, 2026",
+      "readTime": "10 min",
+      "views": "0",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Cybersecurity", "Windows", "Infosecurity", "Security"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-windows-fundamentals-part-1-8e31df70bd8d"
+    },
+    {
+      "title": "Windows OS: Everything You Need to Know",
+      "excerpt": "A beginner-friendly guide to Windows - what it is, where it came from, how it compares to Linux and macOS, and what it means for cybersecurity.",
+      "date": "Apr 12, 2026",
+      "readTime": "8 min",
+      "views": "4",
+      "category": "Operating Systems",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Windows", "Cybersecurity", "Operating Systems", "Active Directory", "Windows Security"],
+      "url": "https://medium.com/@khirwadkar.shubham25/windows-os-everything-you-need-to-know-81d47aa16dae"
+    },
+    {
       "title": "TryHackMe Walkthrough: Linux Fundamentals Part 3",
       "excerpt": "A hands-on walkthrough of the Linux Fundamentals Part 3 room on TryHackMe.",
       "date": "Apr 1, 2026",
       "readTime": "10 min",
-      "views": "10",
+      "views": "19",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -16,7 +38,7 @@
       "excerpt": "A hands-on walkthrough of the Linux Fundamentals Part 2 room on TryHackMe.",
       "date": "Mar 11, 2026",
       "readTime": "8 min",
-      "views": "5",
+      "views": "11",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -27,7 +49,7 @@
       "excerpt": "A beginner-friendly walkthrough of the Linux Fundamentals Part 1 room on TryHackMe.",
       "date": "Mar 7, 2026",
       "readTime": "8 min",
-      "views": "19",
+      "views": "26",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -39,7 +61,7 @@
       "date": "Mar 5, 2026",
       "readTime": "8 min",
       "views": "4",
-      "category": "Security",
+      "category": "Operating Systems",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Linux", "Cybersecurity", "Operating Systems", "InfoSec", "Security"],
       "url": "https://medium.com/@khirwadkar.shubham25/linux-the-operating-system-that-powers-the-cyber-world-ad3c40e51b31"
@@ -49,7 +71,7 @@
       "excerpt": "A hands-on walkthrough of Rooms 1-3: Intro to Offensive Security, Intro to Defensive Security, and Search Skills",
       "date": "Mar 1, 2026",
       "readTime": "10 min",
-      "views": "3",
+      "views": "5",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Cybersecurity", "Ethical Hacking", "Offensive Security", "Defensive Security"],
@@ -79,8 +101,8 @@
     }
   ],
   "stats": [
-    { "value": "7", "label": "Articles" },
-    { "value": "52", "label": "Total Views" },
+    { "value": "9", "label": "Articles" },
+    { "value": "80", "label": "Total Views" },
     { "value": "1", "label": "Subscribers" },
     { "value": "8 min", "label": "Avg Read" }
   ]
