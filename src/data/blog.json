@@ -1,6 +1,83 @@
 {
   "posts": [
     {
+      "title": "TryHackMe Walkthrough: Linux Shell",
+      "excerpt": "A hands-on walkthrough of the Linux Shell room on TryHackMe.",
+      "date": "May 13, 2026",
+      "readTime": "9 min",
+      "views": "2",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Cybersecurity", "Linux", "Infosecurity", "Bash"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-linux-shell-fc5152ee82cf"
+    },
+    {
+      "title": "TryHackMe Walkthrough: Windows PowerShell",
+      "excerpt": "A hands-on walkthrough of the Windows PowerShell room on TryHackMe.",
+      "date": "May 10, 2026",
+      "readTime": "11 min",
+      "views": "9",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Cybersecurity", "Windows", "Infosecurity", "Powershell"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-windows-powershell-bbd54db3b6b4"
+    },
+    {
+      "title": "TryHackMe Walkthrough: Windows Command Line",
+      "excerpt": "A hands-on walkthrough of the Windows Command Line room on TryHackMe.",
+      "date": "May 8, 2026",
+      "readTime": "6 min",
+      "views": "16",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Cybersecurity", "Windows", "Infosecurity", "Networking"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-windows-command-line-e46104c769b5"
+    },
+    {
+      "title": "Command Lines: The Skill Every Cybersecurity Professional Needs",
+      "excerpt": "A practical guide to Windows CMD, Linux Terminal, macOS Terminal, and PowerShell — and why they matter in cybersecurity.",
+      "date": "May 5, 2026",
+      "readTime": "7 min",
+      "views": "2",
+      "category": "Command Line",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Cybersecurity", "Linux", "Windows", "Mac", "Command Line"],
+      "url": "https://medium.com/@khirwadkar.shubham25/command-lines-the-skill-every-cybersecurity-professional-needs-656dd22280bd"
+    },
+    {
+      "title": "TryHackMe Walkthrough: Active Directory Basics",
+      "excerpt": "A hands-on walkthrough of the Active Directory Basics room on TryHackMe.",
+      "date": "May 3, 2026",
+      "readTime": "13 min",
+      "views": "8",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Cybersecurity", "Windows", "Infosecurity", "Security"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-active-directory-basics-cc378dde4388"
+    },
+    {
+      "title": "TryHackMe Walkthrough: Windows Fundamentals Part 3",
+      "excerpt": "A hands-on walkthrough of the Windows Fundamentals Part 3 room on TryHackMe.",
+      "date": "Apr 30, 2026",
+      "readTime": "11 min",
+      "views": "4",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Cybersecurity", "Windows", "Infosecurity", "Security"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-windows-fundamentals-part-3-37e6869b93e3"
+    },
+    {
+      "title": "TryHackMe Walkthrough: Windows Fundamentals Part 2",
+      "excerpt": "A hands-on walkthrough of the Windows Fundamentals Part 2 room on TryHackMe.",
+      "date": "Apr 29, 2026",
+      "readTime": "11 min",
+      "views": "3",
+      "category": "Security",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "tags": ["Tryhackme", "Cybersecurity", "Windows", "Infosecurity", "Security"],
+      "url": "https://medium.com/@khirwadkar.shubham25/tryhackme-walkthrough-windows-fundamentals-part-2-ac062963bd1f"
+    },
+    {
       "title": "TryHackMe Walkthrough: Windows Fundamentals Part 1",
       "excerpt": "A hands-on walkthrough of the Windows Fundamentals Part 1 room on TryHackMe.",
       "date": "Apr 26, 2026",
@@ -16,7 +93,7 @@
       "excerpt": "A beginner-friendly guide to Windows - what it is, where it came from, how it compares to Linux and macOS, and what it means for cybersecurity.",
       "date": "Apr 12, 2026",
       "readTime": "8 min",
-      "views": "4",
+      "views": "6",
       "category": "Operating Systems",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Windows", "Cybersecurity", "Operating Systems", "Active Directory", "Windows Security"],
@@ -27,7 +104,7 @@
       "excerpt": "A hands-on walkthrough of the Linux Fundamentals Part 3 room on TryHackMe.",
       "date": "Apr 1, 2026",
       "readTime": "10 min",
-      "views": "19",
+      "views": "24",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -38,7 +115,7 @@
       "excerpt": "A hands-on walkthrough of the Linux Fundamentals Part 2 room on TryHackMe.",
       "date": "Mar 11, 2026",
       "readTime": "8 min",
-      "views": "11",
+      "views": "14",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -49,7 +126,7 @@
       "excerpt": "A beginner-friendly walkthrough of the Linux Fundamentals Part 1 room on TryHackMe.",
       "date": "Mar 7, 2026",
       "readTime": "8 min",
-      "views": "26",
+      "views": "28",
       "category": "Security",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Tryhackme", "Linux", "Cybersecurity", "Linux Fundamentals", "Infosecurity"],
@@ -60,7 +137,7 @@
       "excerpt": "A beginner's guide to understanding Linux - what it is, where it came from, and why every cybersecurity professional swears by it.",
       "date": "Mar 5, 2026",
       "readTime": "8 min",
-      "views": "4",
+      "views": "6",
       "category": "Operating Systems",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "tags": ["Linux", "Cybersecurity", "Operating Systems", "InfoSec", "Security"],
@@ -101,9 +178,9 @@
     }
   ],
   "stats": [
-    { "value": "9", "label": "Articles" },
-    { "value": "80", "label": "Total Views" },
+    { "value": "16", "label": "Articles" },
+    { "value": "138", "label": "Total Views" },
     { "value": "1", "label": "Subscribers" },
-    { "value": "8 min", "label": "Avg Read" }
+    { "value": "9 min", "label": "Avg Read" }
   ]
 }
