@@ -278,7 +278,7 @@ export default function Certifications() {
         </div>
 
         {/* ── Stats ── */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.75rem' }}>
+        {/* <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.75rem' }}>
           {data.stats.map((s, i) => {
             const colors = [C.accent, C.secondary, C.primary, C.accent]
             return (
@@ -292,7 +292,7 @@ export default function Certifications() {
               </div>
             )
           })}
-        </div>
+        </div> */}
 
       </div>
     </div>
