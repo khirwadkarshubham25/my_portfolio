@@ -1,19 +1,19 @@
 {
   "name": "Shubham Khirwadkar",
-  "title": "Backend Engineer & Cybersecurity Analyst",
-  "tagline": "Crafting robust backend systems and securing digital infrastructures with 5+ years of expertise",
+  "title": "Security Engineer & Backend Developer",
+  "tagline": "Securing the systems I build - 6 years of backend engineering with a security focus",
   "stats": [
-    { "value": "5+", "label": "Years Experience" },
+    { "value": "6+", "label": "Years Experience" },
     { "value": "20+", "label": "Projects Completed" },
-    { "value": "2", "label": "Certifications" }
+    { "value": "4", "label": "Certifications" }
   ],
   "buttons": [
     { "label": "View My Work", "action": "projects" },
     { "label": "Get In Touch", "action": "contact" }
   ],
   "icons": [
-    { "emoji": "⌨️", "gradient": "linear-gradient(135deg, #00ff9f, #06b6d4)" },
-    { "emoji": "💻", "gradient": "linear-gradient(135deg, #00d4ff, #3b82f6)" },
-    { "emoji": "🛡️", "gradient": "linear-gradient(135deg, #ff006e, #ec4899)" }
+    { "emoji": "🛡️", "gradient": "linear-gradient(135deg, #ff006e, #ec4899)" },
+    { "emoji": "🔐", "gradient": "linear-gradient(135deg, #00d4ff, #3b82f6)" },
+    { "emoji": "💻", "gradient": "linear-gradient(135deg, #00ff9f, #06b6d4)" }
   ]
 }

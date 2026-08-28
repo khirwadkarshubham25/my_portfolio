@@ -1,16 +1,16 @@
 {
   "bio": [
-    "I'm a passionate <primary>Backend Engineer</primary> with over 5 years of experience building robust, scalable systems that power modern applications. My journey in tech has been driven by curiosity and a commitment to excellence.",
-    "As a <secondary>Cybersecurity Analyst</secondary>, I bring a security-first mindset to every project. I believe that great software isn't just about features — it's about building systems that are resilient, secure, and maintainable.",
-    "I specialize in designing distributed architectures, optimizing database performance, and implementing security best practices. Whether it's crafting elegant APIs or fortifying systems against vulnerabilities, I approach each challenge with creativity and precision."
+    "I'm a <primary>Security Engineer</primary> with a backend engineer's foundation - 6 years building the kind of production systems I now focus on securing. Most of my work lives where secure coding meets real applications: authentication, access control, and encryption built into systems that handle sensitive data.",
+    "That backend depth is the point. As a <secondary>Backend Developer</secondary> I've shipped microservices and REST APIs at scale, optimized databases, and owned the full path from design to deployment - so I don't just flag vulnerabilities, I understand systems well enough to fix them.",
+    "I specialize in application security, authentication and access control, secure API design, and hardening systems against the OWASP Top 10. I'm going deeper on the security side every day, currently building a SIEM and file integrity monitoring tool from scratch."
   ],
   "highlights": [
+    { "emoji": "🛡️", "title": "Application Security", "description": "Securing applications and APIs against real world threats" },
+    { "emoji": "🔐", "title": "Auth & Access Control", "description": "OAuth 2.0, JWT, and role based access across multi stakeholder systems" },
+    { "emoji": "🔎", "title": "Secure Code Review", "description": "Catching and remediating vulnerabilities during development, before they ship" },
     { "emoji": "🖥️", "title": "Backend Architecture", "description": "Designing scalable microservices and distributed systems" },
-    { "emoji": "🛡️", "title": "Cybersecurity", "description": "Securing applications and infrastructure against threats" },
-    { "emoji": "🗄️", "title": "Database Expert", "description": "Optimizing queries and managing complex data relationships" },
-    { "emoji": "🔐", "title": "Security Audits", "description": "Conducting vulnerability assessments" },
-    { "emoji": "✨", "title": "Clean Code", "description": "Writing maintainable, testable, and well-documented code" },
+    { "emoji": "🗄️", "title": "Database Optimization", "description": "Tuning queries and managing complex data relationships at scale" },
     { "emoji": "⚡", "title": "Performance", "description": "Optimizing systems for speed and efficiency at scale" }
   ],
-  "funFact": "When I'm not architecting new systems or securing applications, you'll find me gaming with friends or exploring new destinations while traveling."
+  "funFact": "When I'm not securing applications or architecting new systems, you'll find me gaming or exploring new destinations."
 }

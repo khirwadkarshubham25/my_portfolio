@@ -1,5 +1,4 @@
-{
-  "certifications": [
+{  "certifications": [
     {
       "name": "CompTIA Security+",
       "issuer": "CompTIA",
@@ -11,19 +10,31 @@
       "skills": ["Network Security", "Threat Management", "Risk Mitigation", "Cryptography"]
     },
     {
-      "name": "Google Professional Cybersecurity",
-      "issuer": "Coursera",
+      "name": "Google Cybersecurity Certificate",
+      "issuer": "Google (Coursera)",
       "date": "Sep 2025",
-      "emoji": "🛡",
+      "emoji": "🛡️",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
       "verifyUrl": "https://www.coursera.org/account/accomplishments/professional-cert/JK4GI1XTR66D",
       "skills": ["Threat Management", "Intrusion Detection and Prevention", "Network Security", "Security Management"]
+    },
+    {
+      "name": "TryHackMe: Cyber Security 101 (SEC1)",
+      "issuer": "TryHackMe",
+      "date": "Jun 2026",
+      "emoji": "🧪",
+      "gradient": "linear-gradient(135deg, #ef4444, #f97316)",
+      "verifyUrl": "https://assets.tryhackme.com/certification-certificate/6a3a7d089ffa5e20c0b2e3b7.pdf",
+      "skills": ["Linux", "Networking", "Cryptography", "Security Tooling"]
+    },
+    {
+      "name": "TryHackMe: Pre Security (SEC0)",
+      "issuer": "TryHackMe",
+      "date": "Jun 2026",
+      "emoji": "🧭",
+      "gradient": "linear-gradient(135deg, #22c55e, #10b981)",
+      "verifyUrl": "https://assets.tryhackme.com/certification-certificate/6a37e0e266f8bbb57fb0424e.pdf",
+      "skills": ["Networking Fundamentals", "Web Fundamentals", "Linux", "Windows"]
     }
-  ],
-  "stats": [
-    { "value": "6", "label": "Pro Certs" },
-    { "value": "6", "label": "Badges" },
-    { "value": "15+", "label": "Courses" },
-    { "value": "100%", "label": "Verified" }
   ]
 }

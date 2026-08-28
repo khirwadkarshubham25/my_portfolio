@@ -6,8 +6,17 @@
       "date": "April 2026",
       "emoji": "🔐",
       "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
-      "verifyUrl": "https://tryhackme.com/p/khirwadkarshubham25?tab=certificates",
+      "verifyUrl": "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-BH99EUVJWO.pdf",
       "skills": ["Network Security", "Cryptography", "Linux", "Windows", "Active Directory", "Offensive Security", "Defensive Security"]
+    },
+    {
+      "name": "Pre Security",
+      "issuer": "TryHackMe",
+      "date": "June 2026",
+      "emoji": "🧭",
+      "gradient": "linear-gradient(135deg, #22c55e, #10b981)",
+      "verifyUrl": "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-HRSRIBH5BL.pdf",
+      "skills": ["Networking Fundamentals", "Web Fundamentals", "Linux Fundamentals", "Windows Fundamentals", "Network Security"]
     }
   ]
 }

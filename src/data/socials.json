@@ -3,27 +3,44 @@
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/sk-b62963111/",
-      "hoverColor": "#0077b5"
+      "hoverColor": "#0077b5",
+      "icon": "FaLinkedin"
     },
     {
       "name": "GitHub",
       "url": "https://github.com/khirwadkarshubham25/",
-      "hoverColor": "#ffffff"
+      "hoverColor": "#ffffff",
+      "icon": "FaGithub"
     },
     {
       "name": "Email",
       "url": "mailto:khirwadkarshubham09@gmail.com",
-      "hoverColor": "#ff006e"
-    },
-    {
-      "name": "LeetCode",
-      "url": "https://leetcode.com/u/khirwadkarshubham/",
-      "hoverColor": "#FFA116"
+      "hoverColor": "#ff006e",
+      "icon": "MdEmail"
     },
     {
       "name": "TryHackMe",
       "url": "https://tryhackme.com/p/khirwadkarshubham25",
-      "hoverColor": "#9FEF00"
+      "hoverColor": "#9FEF00",
+      "icon": "SiTryhackme"
+    },
+    {
+      "name": "HackTheBox",
+      "url": "https://profile.hackthebox.com/profile/019c6ec3-ae24-718b-9715-3d45fa994796?utm_medium=copy_url",
+      "hoverColor": "#9FEF00",
+      "icon": "SiHackthebox"
+    },
+    {
+      "name": "LetsDefend",
+      "url": "https://app.letsdefend.io/user/ShubhamSec25",
+      "hoverColor": "#2979FF",
+      "icon": "FaShieldAlt"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/u/khirwadkarshubham/",
+      "hoverColor": "#FFA116",
+      "icon": "SiLeetcode"
     }
   ]
 }

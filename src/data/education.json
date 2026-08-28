@@ -1,24 +1,34 @@
 {
   "education": [
     {
+      "degree": "Doctorate of Business Administration",
+      "field": "Web Application and Development",
+      "institution": "Westcliff University",
+      "location": "Dallas, TX",
+      "period": "2025 – 2030 (Expected)",
+      "gradient": "linear-gradient(135deg, #ff006e, #ec4899)",
+      "description": "Doctoral research focused on web application development, pursued alongside a full time engineering career.",
+      "courses": []
+    },
+    {
       "degree": "Master of Science in Computer Science",
       "field": "Artificial Intelligence and Databases",
       "institution": "University of Texas at Arlington",
       "location": "Arlington, TX",
       "period": "2021 – 2023",
       "gradient": "linear-gradient(135deg, #00ff9f, #00d4ff)",
-      "description": "Advanced coursework in artificial intelligence, machine learning and databases",
-      "courses": ["Artificial Intelligence", "Machine Learning", "Neural Networks", "Database Systems", "DBMS Models and Implementation", "Cloud Computing and Big Data", "Computer Networks", "Data Analysis and Modeling Techs", "Design and Analysis Algorithms", "Software Engineer I & II"]
+      "description": "Advanced coursework in artificial intelligence, machine learning, and databases.",
+      "courses": ["Artificial Intelligence", "Machine Learning", "Neural Networks", "Database Systems", "DBMS Models and Implementation", "Cloud Computing and Big Data", "Computer Networks", "Data Analysis and Modeling Techniques", "Design and Analysis of Algorithms", "Software Engineering I & II"]
     },
     {
-      "degree": "Bachelor Of Technology in Computer Science",
+      "degree": "Bachelor of Technology in Computer Science",
       "field": "Computer Science",
       "institution": "Vishwakarma Institute of Technology, Pune",
       "location": "Pune, MH",
       "period": "2014 – 2018",
       "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
-      "description": "Strong foundation in computer science fundamentals and software engineering.",
-      "courses": ["Data Structures & Algorithms", "Operating Systems", "Database Systems", "Computer Architecture", "Software Engineering", "Discrete Mathematics", "Network Security", "Artificial Intelligence", "Computer Networks", "Python", ".Net"]
+      "description": "Strong foundation in computer science fundamentals, software engineering, and network security.",
+      "courses": ["Data Structures & Algorithms", "Operating Systems", "Database Systems", "Computer Architecture", "Software Engineering", "Discrete Mathematics", "Network Security", "Artificial Intelligence", "Computer Networks", "Python", ".NET"]
     }
   ]
 }

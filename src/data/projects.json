@@ -1,43 +1,51 @@
 {
   "projects": [
     {
+      "title": "SIEM + FIM Platform",
+      "emoji": "🛰️",
+      "gradient": "linear-gradient(135deg, #00ff9f, #00d4ff)",
+      "description": "A security monitoring platform combining SIEM and file integrity monitoring, built from scratch - custom agents that collect and forward events from endpoints to a central server that aggregates logs, tracks file integrity, and surfaces unauthorized changes. Currently in active development.",
+      "tags": ["Python", "SIEM", "File Integrity Monitoring", "Agent-Server Architecture", "Security Monitoring"],
+      "github": "Private Repo - Work in Progress"
+    },
+    {
       "title": "Password Manager",
       "emoji": "🔐",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
-      "description": "A Django-powered password vault with JWT auth, Fernet encryption, breach detection, and enterprise-style admin controls for managing users, roles, and password policies.",
-      "tags": ["Python", "Django", "Hashing", "Cryptography"],
+      "description": "A Django password vault built to do credential storage right: JWT authentication, Fernet encryption at rest, breach detection, and role based admin controls for users, roles, and password policies.",
+      "tags": ["Python", "Django", "JWT", "Cryptography", "RBAC"],
       "github": "https://github.com/khirwadkarshubham25/password_manager"
     },
     {
       "title": "File Integrity Monitoring System",
-      "emoji": "🛡",
+      "emoji": "🛡️",
       "gradient": "linear-gradient(135deg, #ef4444, #ec4899)",
-      "description": "The File Integrity Monitoring System is a security application designed to detect, monitor, and report on file system changes in real-time. It creates baseline snapshots of critical files and directories, continuously monitors them for modifications, and generates alerts when changes are detected.",
-      "tags": ["Python", "Django", "File System", "File Security", "File Integrity Monitoring"],
+      "description": "A real time file integrity monitor that baselines critical files and directories, watches for unauthorized changes, and raises alerts on any modification, addition, or deletion to support tamper detection.",
+      "tags": ["Python", "Django", "File Integrity Monitoring", "Security Monitoring"],
       "github": "https://github.com/khirwadkarshubham25/file_integrity_monitoring"
     },
     {
       "title": "Phishing Email Detection",
       "emoji": "🔍",
       "gradient": "linear-gradient(135deg, #22c55e, #10b981)",
-      "description": "Machine learning model to detect and classify phishing emails using RandomForest Classifer and pattern analysis. Analyzes headers, sender behavior, and content to flag suspicious messages in real time.",
-      "tags": ["Python", "Machine Learning", "RandomForest Classifier", "TF-Idf Vectorizer"],
+      "description": "A machine learning classifier that flags phishing emails in real time, analyzing headers, sender behavior, and message content with a Random Forest model and TF-IDF feature extraction.",
+      "tags": ["Python", "Machine Learning", "Random Forest", "TF-IDF"],
       "github": "https://github.com/khirwadkarshubham25/phishing_email_detection"
     },
     {
-      "title": "Port Scanning",
+      "title": "Network Port Scanner",
       "emoji": "🕵️‍♂️",
       "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
-      "description": "Python-based network reconnaissance tool for security assessments. Scans infrastructure, identifies open ports and active hosts, and maps potential attack surfaces using TCP/IP protocols.",
-      "tags": ["Python", "Vulnerability Scanners", "Network Security", "Port Scanning"],
+      "description": "A Python network reconnaissance tool for security assessments, implementing multiple TCP/IP scan types to identify open ports and active hosts and map potential attack surfaces.",
+      "tags": ["Python", "Network Security", "Reconnaissance", "Port Scanning"],
       "github": "https://github.com/khirwadkarshubham25/port_scanning"
     },
     {
       "title": "Store Management Portal",
       "emoji": "📊",
       "gradient": "linear-gradient(135deg, #f97316, #eab308)",
-      "description": "Full-stack store management system with React frontend and Django REST backend. Features role-based access control, inventory tracking, and real-time data synchronization.",
-      "tags": ["Python", "Django", "Node.js", "Oracle DB", "SQLite"],
+      "description": "A full stack store management platform with a React frontend and Django REST backend, featuring role based access control, inventory tracking, and real time data sync - the backend depth behind the security work.",
+      "tags": ["React", "Django", "REST API", "RBAC", "SQLite"],
       "github": "https://github.com/khirwadkarshubham25/Store-Management-Portal"
     }
   ],

@@ -103,9 +103,9 @@ export default function About() {
           {/* Quick stat pills */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', minWidth: '130px' }}>
             {[
-              { value: '5+', label: 'Years Exp', color: C.primary },
+              { value: '6+', label: 'Years Exp', color: C.primary },
               { value: '20+', label: 'Projects', color: C.secondary },
-              { value: '2', label: 'Certs', color: C.accent },
+              { value: '4', label: 'Certs', color: C.accent },
               { value: '∞', label: 'Coffee ☕', color: '#f97316' },
             ].map((s, i) => (
               <div key={i} style={{
