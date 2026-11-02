@@ -1,6 +1,15 @@
 {
   "paths": [
     {
+      "name": "AI Security",
+      "issuer": "TryHackMe",
+      "date": "October 2026",
+      "emoji": "🤖",
+      "gradient": "linear-gradient(135deg, #a855f7, #6366f1)",
+      "verifyUrl": "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-LL4FOWZDP5.pdf",
+      "skills": ["AI Security", "LLM Security", "Prompt Injection", "Prompt Engineering", "Data Poisoning", "AI Supply Chain Security", "AI Threat Modelling", "Secure AI Design"]
+    },
+    {
       "name": "Cyber Security 101",
       "issuer": "TryHackMe",
       "date": "April 2026",

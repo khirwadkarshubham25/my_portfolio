@@ -8,11 +8,11 @@
       "type": "Full-time",
       "color": "#00ff9f",
       "achievements": [
-        "Designed and implemented encryption at rest and in transit across databases storing sensitive employee benefit (PHI) data, ensuring continuous adherence to HIPAA and state privacy mandates.",
-        "Audited and refactored core legacy applications, adding robust input validation and replacing 40+ vulnerable queries with prepared statements to eliminate high risk SQL injection flaws.",
-        "Implemented authentication and role based access control across employer, employee, carrier, and admin portals, protecting PHI for 100,000+ members.",
-        "Reduced API latency by 30% across critical endpoints by optimizing 180+ PostgreSQL queries and implementing strategic indexing, improving responsiveness for 500+ employer clients.",
-        "Engineered core features for a proprietary benefits administration platform, enabling seamless data exchange between HR systems and insurance carriers."
+        "Implement authentication and RBAC across employer, employee, carrier, enroller, and admin portals, protecting PII/PHI for 500,000+ members",
+        "Secure database access across enrollment and eligibility workflows with input validation and parameterized queries, preventing SQL injection and protecting data integrity",
+        "Build and secure REST APIs integrated with a third-party HR system to enable secure data exchange for 40+ employer clients, applying authentication and request validation",
+        "Enforce encrypted (TLS) data transmission across carrier and broker integrations, protecting sensitive enrollment and benefits data in transit",
+        "Reduce recurring security defects by identifying and remediating issues during development and peer code reviews"
       ],
       "tags": ["Java", "Spring Boot", "PostgreSQL", "HIPAA", "SQL Injection Prevention", "Secure Coding"]
     },
@@ -24,10 +24,10 @@
       "type": "Full-time",
       "color": "#00d4ff",
       "achievements": [
-        "Implemented secure login flows using OAuth 2.0 and JSON Web Tokens for session management, enforcing strong password policies across administrative and customer portals.",
-        "Implemented encryption (AES-256) for salary, tax, and employee PII in the high volume transactional database layer, protecting sensitive financial information.",
-        "Architected a proprietary backend framework from scratch, enforcing clean architecture and standardized components across mission critical services, reducing critical production incidents by 40%.",
-        "Built automated CI/CD pipelines using Git, Docker, and Jenkins for deployment on AWS, achieving a 100% deployment success rate with zero downtime."
+        "Developed REST API endpoints using Python and Django for a cloud-based HR-attendance platform that captured employee attendance data and fed it into payroll for 100,000 employees",
+        "Designed and built OAuth2 and JWT-based authentication and authorization, controlling employer, employee, bank, tax, and admin access to attendance and payroll data and reducing unauthorized-access risk",
+        "Hardened employee data flows against injection and unauthorized access by enforcing access controls and input validation, remediating security findings",
+        "Protected sensitive employee attendance and salary data by implementing encryption at rest and in transit across 100% of data flows, meeting data-protection requirements"
       ],
       "tags": ["Python", "Django", "OAuth 2.0", "Encryption", "Docker", "AWS"]
     },
